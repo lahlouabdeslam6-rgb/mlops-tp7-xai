@@ -1,0 +1,27 @@
+{
+  "modele": "fraude",
+  "alias": "production",
+  "modele_version": "1",
+  "modele_run_id": "0d05920f9b6f45e5b4f99f6f5b4267db",
+  "donnees_md5": "cf9f6f86c141e7df32c61715c493483f",
+  "run_xai": "62f1d871d7e849f8bd3cd7257a2c4993",
+  "statut": "FINISHED",
+  "artefacts": [
+    "explications/audit_execution.json",
+    "explications/importance.json",
+    "explications/interpretables.json",
+    "explications/lime_benali.html",
+    "explications/lime_benali.png",
+    "explications/lime_stabilite.json",
+    "explications/permutation.png",
+    "explications/shap_benali.png",
+    "explications/shap_global.png",
+    "explications/shap_importance.json",
+    "explications/shap_local.json",
+    "explications/shap_montant.png",
+    "explications/shap_test_668.png",
+    "explications/verification.json"
+  ],
+  "model_card_artifact": "MODEL_CARD.md",
+  "description_verifiee": true
+}

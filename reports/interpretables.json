@@ -1,0 +1,61 @@
+{
+  "fraudes_test": 134,
+  "modeles": {
+    "foret": {
+      "f1": 0.8669201520912547,
+      "rappel": 0.8507462686567164,
+      "fraudes_detectees": 114
+    },
+    "logistique_brut": {
+      "f1": 0.7407407407407407,
+      "rappel": 0.6716417910447762,
+      "fraudes_detectees": 90
+    },
+    "logistique_log10": {
+      "f1": 0.8593155893536122,
+      "rappel": 0.8432835820895522,
+      "fraudes_detectees": 113
+    },
+    "arbre_2": {
+      "f1": 0.22929936305732485,
+      "rappel": 0.13432835820895522,
+      "fraudes_detectees": 18,
+      "feuilles": 4
+    },
+    "arbre_3": {
+      "f1": 0.5737051792828686,
+      "rappel": 0.5373134328358209,
+      "fraudes_detectees": 72,
+      "feuilles": 8
+    },
+    "arbre_6": {
+      "f1": 0.7509881422924901,
+      "rappel": 0.7089552238805971,
+      "fraudes_detectees": 95,
+      "feuilles": 50
+    },
+    "arbre_sans_limite": {
+      "f1": 0.7555555555555555,
+      "rappel": 0.7611940298507462,
+      "fraudes_detectees": 102,
+      "feuilles": 206
+    }
+  },
+  "coefficients_standardises_log10": {
+    "anciennete": -2.5761636809307316,
+    "freq_24h": 2.7474679044850907,
+    "nuit": 2.2298754941082692,
+    "log_montant": 4.934685498381489
+  },
+  "rapport_de_cotes_par_unite": {
+    "anciennete": 0.92839860151853,
+    "freq_24h": 4.757676767155536,
+    "nuit": 318.7727260543298,
+    "log_montant": 32463.61142985507
+  },
+  "regles_arbre_3": "|--- montant <= 1505.7\n|   |--- freq_24h <= 6.5\n|   |   |--- nuit <= 0.5\n|   |   |   |--- class: 0\n|   |   |--- nuit >  0.5\n|   |   |   |--- class: 0\n|   |--- freq_24h >  6.5\n|   |   |--- montant <= 371.9\n|   |   |   |--- class: 0\n|   |   |--- montant >  371.9\n|   |   |   |--- class: 0\n|--- montant >  1505.7\n|   |--- nuit <= 0.5\n|   |   |--- anciennete <= 69.5\n|   |   |   |--- class: 1\n|   |   |--- anciennete >  69.5\n|   |   |   |--- class: 0\n|   |--- nuit >  0.5\n|   |   |--- anciennete <= 64.0\n|   |   |   |--- class: 1\n|   |   |--- anciennete >  64.0\n|   |   |   |--- class: 1\n",
+  "benali_arbre_3": {
+    "feuille": 13,
+    "proba": 0.9830508474576272
+  }
+}

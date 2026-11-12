@@ -1,0 +1,38 @@
+{
+  "benali": {
+    "transaction": {
+      "montant": 1800.0,
+      "anciennete": 30.0,
+      "freq_24h": 4.0,
+      "nuit": 1.0
+    },
+    "base": 0.11573653333333335,
+    "score": 0.924,
+    "base_plus_contributions": 0.9239999999999706,
+    "contributions": {
+      "montant": 0.3665329048594907,
+      "anciennete": 0.09030186630901858,
+      "freq_24h": -0.018252833383607125,
+      "nuit": 0.3696815288817351
+    },
+    "phrase_client": "Le montant de votre paiement et son horaire nocturne ont déclenché un contrôle. Nous pouvons vérifier la transaction avec vous."
+  },
+  "test_668": {
+    "transaction": {
+      "montant": 2661.92,
+      "anciennete": 11.0,
+      "freq_24h": 6.0,
+      "nuit": 0.0
+    },
+    "base": 0.11573653333333335,
+    "score": 0.996,
+    "base_plus_contributions": 0.9959999999999763,
+    "contributions": {
+      "montant": 0.5220555094448392,
+      "anciennete": 0.218466604431761,
+      "freq_24h": 0.18070002892961104,
+      "nuit": -0.04095867613956824
+    },
+    "classe_reelle": 1
+  }
+}

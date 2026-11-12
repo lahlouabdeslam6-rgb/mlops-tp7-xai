@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-12",
+  "provenance": {
+    "modele": "fraude",
+    "alias": "production",
+    "modele_version": "1",
+    "modele_run_id": "0d05920f9b6f45e5b4f99f6f5b4267db",
+    "donnees_md5": "cf9f6f86c141e7df32c61715c493483f"
+  },
+  "reglages": {
+    "shap_echantillon": 400,
+    "shap_random_state": 0,
+    "lime_num_samples": 2000,
+    "lime_random_state": 0,
+    "permutation_n_repeats": 10,
+    "permutation_random_state": 0,
+    "test_size": 0.25,
+    "split_random_state": 42
+  },
+  "environnement": {
+    "python": "3.12.14",
+    "mlflow": "3.17.1",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "shap": "0.54.1",
+    "lime": "0.2.0.1"
+  },
+  "artefacts_sha256": {
+    "verification.json": "b6303201870b3ec20d5ab0e6a6bbe103abc3a71981e864e76ef5f879aa408065",
+    "importance.json": "79885c00ad4c7d5002eafe482fb82caad42fdc5c05bb3abcd95cc1cf2f0537f8",
+    "permutation.png": "ac72bfcde51cd698996b9f6c4fc2b694ebac47d55912b0ad23516f0b2e1fc226",
+    "shap_importance.json": "f727123cdc5565fb574dfce3ade4b69262c990fd8ada8b2b99df426a088d7588",
+    "shap_global.png": "584716f88900124efe4da937fbc10ad582d984a6cd0f34580f159c4d98931800",
+    "shap_montant.png": "15305d6f21ba4312f34b20ab75519821c79e9196b555b3297a5b05d3c21603b5",
+    "shap_local.json": "dc880d306561d04a93590808be58b4919c1af2ccacb446dbca7a10d9bb355632",
+    "lime_stabilite.json": "ce1dbf71c0eb517c06b9fe30e449285b416348b6f1a89b8095b6a2ef101aaf23",
+    "lime_benali.html": "772d0c13e0519444e3a5e1b5ba9a79766fbeea84e44fda5e2cad21d2903c99c5",
+    "lime_benali.png": "bfa60529086998f4b89d6afcecea485c8d068b4db292c29a69b5f88b467866ef",
+    "interpretables.json": "e20e8048fe64052262ac265a231dec4f7c0bc00fb3c7a371ce0f85aaa3d03ba3",
+    "shap_benali.png": "67e2c935200c16ad8fd2f72fd9970f9f34bef14d9ce0b96641c3520bd1e88b59",
+    "shap_test_668.png": "7c7260fdc3bfb9f7b49a09a6510448a801eaad055b230210005c485e8e64a92b"
+  }
+}
