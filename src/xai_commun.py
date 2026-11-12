@@ -3,6 +3,7 @@ import hashlib
 import json
 import os
 from functools import lru_cache
+from io import BytesIO
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -39,7 +40,6 @@ def contexte():
     # L'alias est résolu une seule fois pour épingler la version durant l'audit.
     modele = mlflow.sklearn.load_model(f"models:/{NOM}/{version.version}")
     donnees = DATA.read_bytes()
-    from io import BytesIO
     df = pd.read_csv(BytesIO(donnees))
     X, y = df[VARIABLES], df["fraude"]
     Xtr, Xte, ytr, yte = train_test_split(
