@@ -1,0 +1,8 @@
+.venv/
+.xai-deps/
+__pycache__/
+*.py[cod]
+data/
+mlartifacts/
+mlflow.db*
+.env
